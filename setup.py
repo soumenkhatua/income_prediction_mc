@@ -13,7 +13,6 @@ def get_requriments(filepath: str) -> List[str]:
         if HYPHON_E_DOT in requirements:
             requirements.remove(HYPHON_E_DOT)
 
-
 setup(name='ML_Pipeline_project',
       version='0.0.1',
       description='Machine Learning pipeline project',
